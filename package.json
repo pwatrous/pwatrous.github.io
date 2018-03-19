@@ -2,7 +2,7 @@
   "name": "website-personal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.patrickwatro.us",
+  "homepage": "https://www.pwatrous.github.io",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
@@ -47,7 +47,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
