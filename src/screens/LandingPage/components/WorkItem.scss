@@ -1,0 +1,27 @@
+.work-item {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.work-description {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.work-anchor {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    text-decoration: none;
+
+    img {
+        margin-left: 10px;
+    }
+}
+
+.work-logo {
+    width: 120px;
+}
