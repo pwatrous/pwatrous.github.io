@@ -2,7 +2,7 @@
   "name": "website-personal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.pwatrous.github.io",
+  "homepage": "https:pwatrous.github.io",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
