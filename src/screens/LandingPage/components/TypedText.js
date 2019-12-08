@@ -6,7 +6,7 @@ class TypedText extends Component {
   componentDidMount() {
     const strings = [
       "Hi, I'm Patrick.",
-      "I like making things in React."
+      "I like building web applications."
     ]
 
     const formatStrings = (strings) => {

@@ -3,12 +3,18 @@
     display: grid;
     grid-template-rows: 150px repeat(2, 1fr);
     grid-template-columns: repeat(3, 1fr);
-    height: 98vh;
-    width: 98vw;
+    height: 101vh;
+    width: 101vw;
+    margin: -1vw -1vh;
+    background-color: #99d6ff;
 }
 
 .work {
     grid-row: 3 / span 1;
     grid-column:  2 / span 1;
     margin: 20px auto;
+}
+
+.resume-button {
+    margin-left: 40%;
 }
