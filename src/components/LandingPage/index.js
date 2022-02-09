@@ -17,7 +17,7 @@ const GridLeftContainer = styled(Grid)`
 const MainText = styled.div`
   font-size: 8vh;
   font-weight: 500;
-  padding-bottom: 1vh;
+  padding-bottom: 2vh;
 `;
 const SubText = styled.div`
   font-size: 1.4em;
@@ -37,14 +37,14 @@ const LandingPage = () => {
       <LandingPageContainer container>
           <GridLeftContainer item xs={6}>
             <MainText>Hi, I'm Patrick.</MainText>
-            <SubText>I'm a Boston based software developer.</SubText>
+            <SubText>I'm a software developer in the Boston area.</SubText>
             <br />
             <SubText>
                 I like building fast, modern, and scalable React applications.
             </SubText>
             <br />
             <SubText>Outside of work, I can be found doing origami, playing violin, 
-              and endlessly tinkering with my 3D printers.</SubText>
+              or endlessly tinkering with my 3D printers.</SubText>
           </GridLeftContainer>
           <GridRightContainer item xs={6} alignItems="center" justifyContent="center">
               <PatImg src={pat} alt="Me" />;

@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import neu from '../../assets/northeastern.png';
 import harvard from '../../assets/Harvard-Catalyst.png';
@@ -23,10 +22,11 @@ const CardContainer = styled.div`
   padding: 0 30px;
 `;
 const TimelineImg = styled.img`
-  width: 7vw;
+  width: 9vw;
 `;
 const TimelineText = styled.p`
   width: 70%;
+  font-size: 1.1em;
 `;
 const TimelineMainLine = styled.div`
   height: 100%;
@@ -64,10 +64,8 @@ const TimelinePage = () => {
                 alt="Northeastern University Logo"
               />
               <TimelineText>
-                Vestibulum hendrerit sed erat tincidunt semper.
-                Suspendisse potenti. Mauris fermentum, est quis
-                lobortis venenatis, nisi dolor condimentum dui,
-                quis auctor risus lacus dapibus orci.
+                Graduated from Northeastern University with a combined degree in
+                computer science and accounting.
               </TimelineText>
             </CardContainer>
           </TimelineCard>
