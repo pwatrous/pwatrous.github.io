@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6498385f.css",
+    "main.js": "/static/js/main.b133d716.js",
+    "static/media/pwresume.pdf": "/static/media/pwresume.987d8e6d3c0f90f15d5c.pdf",
+    "static/media/northeastern.png": "/static/media/northeastern.3d2b71e672f00d0d57df.png",
+    "static/media/patrick.jpg": "/static/media/patrick.3032bf6cd0e5603014a9.jpg",
+    "static/media/chewy.png": "/static/media/chewy.57f4eea300956ce4f8f8.png",
+    "static/media/Harvard-Catalyst.png": "/static/media/Harvard-Catalyst.7ba6c994d92559d9d1f2.png",
+    "index.html": "/index.html",
+    "main.6498385f.css.map": "/static/css/main.6498385f.css.map",
+    "main.b133d716.js.map": "/static/js/main.b133d716.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6498385f.css",
+    "static/js/main.b133d716.js"
+  ]
+}
