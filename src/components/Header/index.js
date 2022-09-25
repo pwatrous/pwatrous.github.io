@@ -11,16 +11,22 @@ const HeaderContainer = styled.div`
   justify-content: flex-start;
   position: fixed;
   top: 0;
+  z-index: 99;
 `;
-const HeaderItem = styled.div`
+const HeaderItem = styled.a`
   color: #008b95;
   font-size: 20px;
+  padding-right: 30px;
+  &:focus, &:hover, &:visited, &:link, &:active {
+    text-decoration: none;
+  }
 `;
 
 const Index =() => {
   return (
     <HeaderContainer>
-      <HeaderItem>HOME</HeaderItem>
+      <HeaderItem href="#landing">HOME</HeaderItem>
+      <HeaderItem href="#timeline">TIMELINE</HeaderItem>
     </HeaderContainer>
   )
 }
