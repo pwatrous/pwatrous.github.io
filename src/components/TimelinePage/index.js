@@ -38,7 +38,7 @@ const TimelineText = styled.p`
   font-size: 1.1rem;
 `;
 const TimelineDate = styled.p`
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 `;
 const TimelineMainLine = styled.div`
   height: 100%;
