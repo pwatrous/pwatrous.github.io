@@ -105,7 +105,7 @@ const TimelinePage = () => {
               />
               <TimelineText>
                 Built, deployed, and maintained several applications with regular
-                use by the fixed income analyists at Loomis, Sayles & Company.
+                use by the fixed income analysts at Loomis, Sayles & Company.
                 </TimelineText>
             </CardContainer>
           </TimelineCard>
